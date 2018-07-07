@@ -1,0 +1,25 @@
+{
+  "name": "@flui/playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "build": "truffle build",
+    "migrate": "truffle migrate",
+    "console": "truffle console",
+    "serve": "ganache-cli -p 7545"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "big-number": "^1.0.0",
+    "ganache-cli": "^6.1.4",
+    "openzeppelin-solidity": "^1.10.0",
+    "truffle": "^4.1.13"
+  },
+  "devDependencies": {
+    "prettier": "1.13.7"
+  }
+}
